@@ -11,12 +11,11 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  array = ["land", "island", "swamp", "forest"]
   array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  array = ["land", "island", "swamp", "forest", arrays]
+  ["land", "island", "swamp", "forest", "arrays!"]
   array.pop
 end
 
