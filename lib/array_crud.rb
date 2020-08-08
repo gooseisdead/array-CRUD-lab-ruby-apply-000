@@ -8,8 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = ["land", "island", "swamp", "forest"]
-  element = ["gate"]
-  array << element
+  array << "gate"
 end
 
 def add_element_to_start_of_array(array, element)
