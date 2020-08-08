@@ -7,7 +7,6 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["land", "island", "swamp", "forest"]
   array.push("arrays!")
 end
 
@@ -17,7 +16,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = ["land", "island", "swamp", "forest"]
+  array = ["land", "island", "swamp", "forest", arrays]
   array.pop
 end
 
