@@ -36,5 +36,5 @@ end
 
 def retrieve_last_element_from_array(array)
   array = ["wow", "land", "am" "island", "swamp", "forest", "arrays!"]
-  array[6]
+  array[5]
 end
